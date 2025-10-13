@@ -1,169 +1,213 @@
 ---
 # Display name
-title: Alex Johnson
+title: Debs Maia Silva
 
 # Name pronunciation (optional)
 name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Alex
-last_name: Johnson
+first_name: Debs
+last_name: Maia Silva
 
-# Pronouns (optional)
-pronouns: he/him
+# Pronouns
+pronouns: she/her
 
-# Status emoji
+# Status emoji (reflects AI focus)
 status:
-  icon: 🚀
+  icon: 🤖
 
 # Is this the primary user of the site?
 superuser: true
 
-# Highlight the author in author lists? (true/false)
+# Highlight the author in author lists
 highlight_name: true
 
-# Role/position/tagline
-role: Senior AI Research Scientist
+# Professional headline
+role: Lead AI & Machine Learning Data Scientist
 
-# Organizations/Affiliations to display in Biography blox
+# Organization / Affiliation
 organizations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: Capital One
+    url: https://www.capitalonecareers.com/
 
-# Social network links
-# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
+# Contact & Social
 profiles:
   - icon: at-symbol
-    url: 'mailto:alex.johnson@meta.com'
-    label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/AlexAIResearch
-  - icon: brands/github
-    url: https://github.com/alexjohnsonai
+    url: mailto:missdmaia@gmail.com
+    label: Email
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnsonai/
+    url: https://www.linkedin.com/in/dr-debs/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=alexjohnson
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://scholar.google.com/citations?user=8DgiMCEAAAAJ&hl=en
+  - icon: brands/instagram
+    url: https://www.instagram.com/python_direto_ao_ponto/
+    label: "Python direto ao ponto (Education Project)"
 
+# Research & Professional Interests
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Large Language Models (LLMs)
+  - AI Applications in Regulated and High-Risk Environments
+  - AI Ethics and Evaluation
+  - Fraud Detection
+  - Energy and Climate Data Modeling
 
+# Education
 education:
-  - area: PhD Computer Science (AI Focus)
-    institution: Stanford University
-    date_start: 2015-09-01
-    date_end: 2019-06-30
+  - area: Ph.D. in Engineering (Data Science Focus)
+    institution: Purdue University
+    date_start: 2017-08
+    date_end: 2021-05
     summary: |
-      Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
+      Developed Bayesian, neural, and hybrid models for climate and electrical data prediction, 
+      focusing on risk and energy forecasting. Published as first author in *Nature Communications*. 
+      Supervised by Prof. Roshanak Nateghi. Recipient of the **Outstanding Research Award** and 
+      **Ross Fellowship**.
     button:
-      text: 'Read Thesis'
-      url: 'https://example.com/thesis.pdf'
-  - area: MS Computer Science
-    institution: Carnegie Mellon University
-    date_start: 2013-09-01
-    date_end: 2015-05-31
+      text: 'Read Dissertation'
+      url: https://docs.lib.purdue.edu/dissertations/AAI30504508/
+  - area: B.S. in Civil Engineering (Energy Resources)
+    institution: University of Campinas (UNICAMP)
+    date_start: 2010-01
+    date_end: 2015-12
     summary: |
-      GPA: 4.0/4.0
+      Specialized in Energy Resources with a Minor in Computer Engineering.
+      Awarded *Excellence in Leadership* as team lead in the Engineering Sports League.
+      Recipient of a FAPESP-PIBIC Scientific Initiation Scholarship.
 
-      Specialized in machine learning and robotics.
-  - area: BS Computer Science
-    institution: MIT
-    date_start: 2009-09-01
-    date_end: 2013-05-31
-    summary: |
-      GPA: 3.9/4.0
-
-      Minored in Mathematics. President of AI Club.
-
+# Work Experience
 work:
-  - position: Senior AI Research Scientist
-    company_name: Meta AI
-    company_url: 'https://ai.meta.com/'
-    company_logo: ''
-    date_start: 2020-01-01
+  - position: Manager, Data Science
+    company_name: Capital One
+    company_url: https://www.capitalonecareers.com/
+    date_start: 2021-06
     date_end: ''
-    summary: |2-
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models. 50+ citations in 3 years.
-  - position: AI Research Intern
-    company_name: OpenAI
-    company_url: 'https://openai.com/'
-    company_logo: ''
-    date_start: 2019-06-01
-    date_end: 2019-12-31
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Leading AI development and deployment in **Risk Management**. 
+      Tech Lead for cross-functional teams building LLM-powered solutions, 
+      Retrieval-Augmented Generation (RAG) systems, and AI-driven risk analytics pipelines. 
+      Delivered scalable architectures reducing model review time by **80%** while ensuring compliance 
+      and governance alignment. Mentor and site lead for the Capital One Data Science internship program.
+  - position: Principal Associate, Data Science
+    company_name: Capital One
+    date_start: 2021-06
+    date_end: 2025-07
+    summary: |
+      Pioneered Capital One’s first production-grade **Large Language Model application** in a regulated environment. 
+      Designed and deployed automated summarization and compliance-evaluation pipelines integrating RAG and 
+      generative AI. Built NLP models improving call center compliance detection accuracy by 40%.
+  - position: Ph.D. Data Science Intern
+    company_name: Capital One
+    date_start: 2020-06
+    date_end: 2020-08
+    summary: |
+      Developed graph-based fraud analytics models using network embeddings and graph algorithms 
+      to identify high-risk transaction clusters and enhance fraud detection.
+  - position: Graduate Research Assistant
+    company_name: Purdue University
+    date_start: 2017-08
+    date_end: 2021-05
+    summary: |
+      Applied machine learning and statistical modeling to energy forecasting and climate resilience research. 
+      Published multiple papers and presented at international conferences. 
+      Led data pipelines and computational modeling under the Purdue Climate & Energy Systems group.
 
 # Skills
-# Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Technical Skills
     items:
-      - name: Python & PyTorch
-        description: ''
+      - name: Python, PyTorch & TensorFlow
         percent: 95
         icon: code-bracket
-      - name: Machine Learning
-        description: ''
+      - name: Machine Learning & NLP
         percent: 100
         icon: chart-bar
-      - name: Cloud Computing (AWS/GCP)
-        description: ''
+      - name: LLMs & RAG Systems
+        percent: 90
+        icon: brain
+      - name: AWS, Spark & MLOps
         percent: 85
         icon: cloud
+  - name: Leadership & Communication
+    color: '#3b82f6'
+    color_border: '#60a5fa'
+    items:
+      - name: Mentorship & Team Leadership
+        percent: 90
+        icon: user-group
+      - name: Technical Speaking & AI Education
+        percent: 85
+        icon: microphone
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking in the Rockies
-        description: ''
+      - name: Teaching Data Science
         percent: 80
-        icon: person-simple-walk
-      - name: Building Custom PCs
-        description: ''
+        icon: chalkboard
+      - name: Soccer
         percent: 90
-        icon: cpu-chip
-      - name: Sci-Fi Reading
-        description: ''
-        percent: 70
+        icon: soccer-ball
+      - name: Reading & Writing
+        percent: 75
         icon: book-open
 
+# Languages
 languages:
   - name: English
     percent: 100
+  - name: Portuguese
+    percent: 100
   - name: Spanish
-    percent: 50
+    percent: 80
 
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
+# Awards
 awards:
-  - title: Best Paper Award
-    url: https://neurips.cc/
-    date: '2022-12-01'
-    awarder: NeurIPS
+  - title: Outstanding Research Award
+    awarder: Purdue College of Engineering
+    date: '2020-12'
     icon: hero/trophy
     summary: |
-      Awarded for groundbreaking work on efficient training of large models.
-  - title: AI Innovation Grant
-    url: https://www.nsf.gov/
-    date: '2021-06-15'
-    awarder: National Science Foundation
-    icon: hero/currency-dollar
-    summary: |
-      $500,000 grant for research in ethical AI development.
-  - title: Outstanding PhD Thesis
-    url: https://www.stanford.edu/
-    date: '2019-06-30'
-    awarder: Stanford University
+      Recognized for innovative research in climate and energy demand forecasting.
+  - title: Society of Risk Analysis Student Merit Award
+    awarder: Society of Risk Analysis
+    date: '2020-10'
+    url: https://www.sra.org/
     icon: hero/academic-cap
     summary: |
-      Recognized for contributions to scaling laws in deep learning.
----
+      Honored for contributions to risk modeling and applied machine learning research.
+  - title: Ross Fellowship Award
+    awarder: Purdue University
+    date: '2017-08'
+    icon: hero/academic-cap
+    summary: |
+      Full graduate fellowship supporting data-driven energy research.
 
-Alex Johnson is a Senior AI Research Scientist at Meta AI, where he leads groundbreaking work on large language models and multimodal systems. His research has been published in top conferences like NeurIPS and ICML, with over 10,000 citations. Alex is passionate about pushing the boundaries of AI while ensuring ethical development. Outside of work, he enjoys hiking in the Rockies, building custom PCs, and mentoring the next generation of AI talent.
+# Publications (selected)
+publications:
+  - title: "The Role of Humidity in Electricity Demand"
+    journal: Nature Communications
+    year: 2020
+  - title: "The Goldilocks Zone in Cooling Demand"
+    journal: Earth’s Future (AGU)
+    year: 2022
+  - title: "The Overlooked Footprint of Internet Use"
+    journal: Resources, Conservation & Recycling
+    year: 2021
+
+# Volunteering
+volunteering:
+  - role: Workshop Presenter & Moderator
+    organization: Women in Tech / Latinas in Tech
+    date_start: 2024
+    date_end: 2025
+  - role: Founder
+    organization: "Vem ser Dev — Python direto ao ponto"
+    date_start: 2020
+    date_end: ''
+    summary: |
+      Created an educational platform to teach Python and data science to Portuguese-speaking learners.
+  - role: Internship Program Lead
+    organization: Capital One Data Science Program
+    date_start: 2022
+    date_end: 2025
+---
