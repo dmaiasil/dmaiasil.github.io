@@ -55,8 +55,8 @@ interests:
 education:
   - area: Ph.D. in Engineering (Data Science Focus)
     institution: Purdue University
-    date_start: 2017-08
-    date_end: 2021-05
+    date_start: 2017-08-15
+    date_end: 2021-05-01
     summary: |
       Developed Bayesian, neural, and hybrid models for climate and electrical data prediction, 
       focusing on risk and energy forecasting. Published as first author in *Nature Communications*. 
@@ -67,8 +67,8 @@ education:
       url: https://docs.lib.purdue.edu/dissertations/AAI30504508/
   - area: B.S. in Civil Engineering (Energy Resources)
     institution: University of Campinas (UNICAMP)
-    date_start: 2010-01
-    date_end: 2015-12
+    date_start: 2010-03-15
+    date_end: 2016-12-01
     summary: |
       Specialized in Energy Resources with a Minor in Computer Engineering.
       Awarded *Excellence in Leadership* as team lead in the Engineering Sports League.
@@ -79,7 +79,7 @@ work:
   - position: Manager, Data Science
     company_name: Capital One
     company_url: https://www.capitalonecareers.com/
-    date_start: 2021-06
+    date_start: 2021-06-28
     date_end: ''
     summary: |
       Leading AI development and deployment in **Risk Management**. 
@@ -89,23 +89,23 @@ work:
       and governance alignment. Mentor and site lead for the Capital One Data Science internship program.
   - position: Principal Associate, Data Science
     company_name: Capital One
-    date_start: 2021-06
-    date_end: 2025-07
+    date_start: 2021-06-28
+    date_end: ''
     summary: |
       Pioneered Capital One’s first production-grade **Large Language Model application** in a regulated environment. 
       Designed and deployed automated summarization and compliance-evaluation pipelines integrating RAG and 
       generative AI. Built NLP models improving call center compliance detection accuracy by 40%.
   - position: Ph.D. Data Science Intern
     company_name: Capital One
-    date_start: 2020-06
-    date_end: 2020-08
+    date_start: 2020-06-01
+    date_end: 2020-08-09
     summary: |
       Developed graph-based fraud analytics models using network embeddings and graph algorithms 
       to identify high-risk transaction clusters and enhance fraud detection.
   - position: Graduate Research Assistant
     company_name: Purdue University
-    date_start: 2017-08
-    date_end: 2021-05
+    date_start: 2017-08-15
+    date_end: 2021-05-01
     summary: |
       Applied machine learning and statistical modeling to energy forecasting and climate resilience research. 
       Published multiple papers and presented at international conferences. 
@@ -164,20 +164,20 @@ languages:
 awards:
   - title: Outstanding Research Award
     awarder: Purdue College of Engineering
-    date: '2020-12'
+    date: '2020-12-01'
     icon: hero/trophy
     summary: |
       Recognized for innovative research in climate and energy demand forecasting.
   - title: Society of Risk Analysis Student Merit Award
     awarder: Society of Risk Analysis
-    date: '2020-10'
+    date: '2020-10-01'
     url: https://www.sra.org/
     icon: hero/academic-cap
     summary: |
       Honored for contributions to risk modeling and applied machine learning research.
   - title: Ross Fellowship Award
     awarder: Purdue University
-    date: '2017-08'
+    date: '2017-08-01'
     icon: hero/academic-cap
     summary: |
       Full graduate fellowship supporting data-driven energy research.
@@ -198,18 +198,18 @@ publications:
 volunteering:
   - role: Workshop Presenter & Moderator
     organization: Women in Tech / Latinas in Tech
-    date_start: 2024
-    date_end: 2025
+    date_start: 2024-03-01
+    date_end: ''
   - role: Founder
     organization: "Vem ser Dev — Python direto ao ponto"
-    date_start: 2020
+    date_start: 2020-01-01
     date_end: ''
     summary: |
       Created an educational platform to teach Python and data science to Portuguese-speaking learners.
   - role: Internship Program Lead
     organization: Capital One Data Science Program
-    date_start: 2022
-    date_end: 2025
+    date_start: 2022-07-01
+    date_end: ''
 ---
 
 Dr. Debs Maia Silva is a Lead AI & Machine Learning Data Scientist at Capital One, where she pioneers enterprise-grade applications of Large Language Models and AI systems in regulated environments.
