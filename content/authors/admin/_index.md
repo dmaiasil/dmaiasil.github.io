@@ -143,7 +143,7 @@ skills:
     items:
       - name: Teaching Data Science
         percent: 80
-        icon: academc-cap
+        icon: academic-cap
       - name: Soccer
         percent: 90
         icon: trophy
