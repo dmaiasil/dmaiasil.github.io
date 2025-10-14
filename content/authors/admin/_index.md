@@ -215,6 +215,11 @@ volunteering:
 Dr. Debs Maia Silva is a Lead AI & Machine Learning Data Scientist at Capital One, where she pioneers enterprise-grade applications of Large Language Models and AI systems in regulated environments.
 She leads cross-functional teams developing retrieval-augmented generation pipelines and compliance-aware AI frameworks that enhance decision-making and operational efficiency.
 
-Holding a Ph.D. in Engineering from Purdue University, Debs’ research on energy forecasting and machine learning was featured in Nature Communications and Earth’s Future. She is also an educator, speaker, and advocate for women and Latinas in tech — founding Vem ser Dev, a data science education initiative for Portuguese speakers.
+**Debs** holds a Ph.D. in Engineering from **Purdue University**, where her research on *energy forecasting* and *machine learning* was featured in **Nature Communications** and *Earth’s Future*.  
 
-Her passion lies at the intersection of AI innovation, ethics, and real-world impact — shaping intelligent systems that empower organizations responsibly.
+As a data-science leader, educator, and advocate for women and Latinas in tech, she is passionate about **making technology accessible and meaningful**. Debs founded **Vem ser Dev**: a data-science and Python education initiative empowering Portuguese-speaking learners.  
+
+Her work explores the intersection of **AI innovation, ethics, and real-world impact**, developing intelligent systems that drive responsible transformation.  
+
+As a speaker, she strives to **inspire curiosity, inclusion, and confidence** in the next generation of technology professionals.
+ 
