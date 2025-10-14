@@ -134,7 +134,7 @@ skills:
       - name: Mentorship & Team Leadership
         percent: 90
         icon: user-group
-      - name: Technical Speaking & AI Education
+      - name: Technical & Career Development Speaking & AI Education
         percent: 85
         icon: microphone
   - name: Hobbies
@@ -143,10 +143,10 @@ skills:
     items:
       - name: Teaching Data Science
         percent: 80
-        icon: chalkboard
+        icon: person-chalkboard
       - name: Soccer
         percent: 90
-        icon: soccer-ball
+        icon: futbol
       - name: Reading & Writing
         percent: 75
         icon: book-open
