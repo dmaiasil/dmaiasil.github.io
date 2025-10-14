@@ -29,12 +29,24 @@ sections:
       avatar:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
-  - block: markdown
-    content:
-      title: '📚 My Research'
-      subtitle: ''
-      text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+ - block: markdown
+  content:
+    title: '🤖 My Mission'
+    subtitle: ''
+    text: |-
+      My mission is to **build AI systems that are ethical, explainable, and impactful**, transforming how organizations use data to make better, more responsible decisions.  
+
+      I work at the intersection of **AI innovation, ethics, and real-world application**, leading projects that make machine learning both scalable and sustainable.  
+
+      As an **educator and international speaker**, I’m passionate about **democratizing technology** through inclusion and knowledge-sharing. I founded **Vem ser Dev** to empower Portuguese-speaking learners in Python and data science.
+
+      Through my talks and collaborations, I aim to **bridge the gap between complex AI systems and human understanding**, inspiring teams and audiences to use data for good.  
+
+      📩 *Open to collaboration, speaking engagements, and initiatives that drive ethical innovation.*
+
+   **So, what can data do for you?**
+
+
 
         I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
 
