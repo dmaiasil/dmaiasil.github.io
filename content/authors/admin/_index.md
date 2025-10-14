@@ -143,10 +143,10 @@ skills:
     items:
       - name: Teaching Data Science
         percent: 80
-        icon: person-chalkboard
+        icon: academc-cap
       - name: Soccer
         percent: 90
-        icon: futbol
+        icon: trophy
       - name: Reading & Writing
         percent: 75
         icon: book-open
