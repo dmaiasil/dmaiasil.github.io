@@ -17,7 +17,7 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
-        url: uploads/resume.pdf
+        url: /uploads/resume.pdf
       headings:
         about: ''
         education: ''
@@ -27,32 +27,28 @@ sections:
       css_class: hbx-bg-gradient
       # Avatar customization
       avatar:
-      size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
-      shape: circle # Options: circle (default), square, rounded
-- block: markdown
-  content:
-    title: '🤖 My Mission'
-    subtitle: ''
-    text: |-
-      My mission is to **build AI systems that are ethical, explainable, and impactful**, transforming how organizations use data to make better, more responsible decisions.  
+        size: medium   # small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
+        shape: circle  # circle (default), square, rounded
 
-      I work at the intersection of **AI innovation, ethics, and real-world application**, leading projects that make machine learning both scalable and sustainable.  
+  - block: markdown
+    content:
+      title: '🤖 My Mission'
+      subtitle: ''
+      text: |-
+        My mission is to **build AI systems that are ethical, explainable, and impactful**, transforming how organizations use data to make better, more responsible decisions.  
 
-      As an **educator and international speaker**, I’m passionate about **democratizing technology** through inclusion and knowledge-sharing. I founded **Vem ser Dev** to empower Portuguese-speaking learners in Python and data science.
+        I work at the intersection of **AI innovation, ethics, and real-world application**, leading projects that make machine learning both scalable and sustainable.  
 
-      Through my talks and collaborations, I aim to **bridge the gap between complex AI systems and human understanding**, inspiring teams and audiences to use data for good.  
+        As an **educator and international speaker**, I’m passionate about **democratizing technology** through inclusion and knowledge-sharing. I founded **Vem ser Dev** to empower Portuguese-speaking learners in Python and data science.
 
-      📩 *Open to collaboration, speaking engagements, and initiatives that drive ethical innovation.*
+        Through my talks and collaborations, I aim to **bridge the gap between complex AI systems and human understanding**, inspiring teams and audiences to use data for good.  
 
-   **So, what can data do for you?**
+        📩 *Open to collaboration, speaking engagements, and initiatives that drive ethical innovation.*  
 
-
-
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-
-        Please reach out to collaborate 😃
+        **So, what can data do for you?**
     design:
       columns: '1'
+
   - block: collection
     id: papers
     content:
@@ -64,6 +60,7 @@ sections:
     design:
       view: article-grid
       columns: 2
+
   - block: collection
     content:
       title: Recent Publications
@@ -74,6 +71,7 @@ sections:
         exclude_featured: false
     design:
       view: citation
+
   - block: collection
     id: talks
     content:
@@ -83,6 +81,7 @@ sections:
           - events
     design:
       view: card
+
   - block: collection
     id: news
     content:
@@ -112,6 +111,7 @@ sections:
       # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
+
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:
