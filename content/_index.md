@@ -32,12 +32,10 @@ sections:
 
   - block: markdown
     content:
-      title: '🤖 My Mission'
+      title: '🏛️ My Mission'
       subtitle: ''
       text: |-
-        My mission is to **build AI systems that are ethical, explainable, and impactful**, transforming how organizations use data to make better, more responsible decisions.  
-
-        I work at the intersection of **AI innovation, ethics, and real-world application**, leading projects that make machine learning both scalable and sustainable.  
+        My mission is to **build AI systems that are ethical, explainable, and impactful**, transforming how organizations use data to make better, more responsible decisions and leading projects that make machine learning both scalable and sustainable.  
 
         As an **educator and international speaker**, I’m passionate about **democratizing technology** through inclusion and knowledge-sharing. I founded **Vem ser Dev** to empower Portuguese-speaking learners in Python and data science.
 
