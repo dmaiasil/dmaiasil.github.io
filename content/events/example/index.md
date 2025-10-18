@@ -13,10 +13,10 @@ address:
   country: 'United States'
 
 summary: >-
-  Corporate America isn't a level playing field—so play to win with "booster cards": excellence, brand armor, mentors, and self-compassion.
+   A though-provoking talk on how Corporate America is not a fair game; but fear not, there are "booster cards" to level the play field.
 
 abstract: >-
-  This talk, "Beating the Game: Booster Cards to Win Corporate America," starts by naming the reality: the workplace isn't fair and "meritocracy" is often a myth. Instead of waiting for perfect conditions, the talk offers four practical "booster cards." Excellence: show up, be present, and leverage diversity of thought; Cup Armor: protect and manage your professional image and brand, especially under bias; Mentor: find safe, strategic allies outside your immediate team; and Be Gentle to Yourself: normalize mistakes and replace reflexive apologies with constructive acknowledgments (e.g., "Thanks for pointing that out"). Together, these moves help underrepresented professionals navigate bias, reclaim agency, and advance with purpose.
+  "Beating the Game: Booster Cards to Win Corporate America," is an honest talk: the workplace isn't fair and "meritocracy" is often a myth. Instead of waiting for perfect conditions, the talk offers practical advice to navigate the work environment and play to win. These moves help underrepresented professionals navigate bias, reclaim agency, and advance with purpose.
 
 date: '2024-10-30T14:00:00Z'
 all_day: false
