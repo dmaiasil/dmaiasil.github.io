@@ -14,7 +14,7 @@ pronouns: she/her
 
 # Status emoji (reflects AI focus)
 status:
-  icon: 🤖
+  icon: 🌍
 
 # Is this the primary user of the site?
 superuser: true
