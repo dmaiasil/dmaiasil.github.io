@@ -79,7 +79,7 @@ work:
   - position: Manager, Data Science
     company_name: Capital One
     company_url: https://www.capitalonecareers.com/
-    date_start: 2021-06-28
+    date_start: 2025-07-01
     date_end: ''
     summary: |
       Leading AI development and deployment in **Risk Management**. 
