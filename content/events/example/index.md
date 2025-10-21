@@ -1,7 +1,7 @@
 ---
 title: 'Beating the Game: Booster Cards to Win Corporate America'
 
-event: 'SHPE Conference'
+event: 'SHPE Conference 2024'
 event_url: 'https://shpe.org/engage/events/national-convention/'
 
 location: 'Anaheim Convention Center'
@@ -35,13 +35,13 @@ image:
   focal_point: Right
   preview_only: false
 
-links:
-  - type: slides
-    url: '/uploads/SHPE_presentation_Debs.pptx'
-  - type: video
-    url: 'https://youtube.com'
+#links:
+#  - type: slides
+#    url: '/uploads/SHPE_presentation_Debs.pptx'
+#  - type: video
+#    url: 'https://youtube.com'
 
-slides: ''
+#slides: ''
 
 projects: []
 ---
