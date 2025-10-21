@@ -115,26 +115,29 @@ work:
 skills:
   - name: Technical Skills
     items:
-      - name: Python, PyTorch & TensorFlow
+      - name: Python, SQL, R
         percent: 95
         icon: code-bracket
-      - name: Machine Learning & NLP
+      - name: Machine Learning, NLP
         percent: 100
         icon: chart-bar
-      - name: LLMs & RAG Systems
+      - name: LLMs, RAG Systems
         percent: 90
         icon: brain
-      - name: AWS, Spark & MLOps
+      - name: AWS, Spark, Hadoop
         percent: 85
         icon: cloud
-  - name: Leadership & Communication
+  - name: Leadership and Communication
     color: '#3b82f6'
     color_border: '#60a5fa'
     items:
-      - name: Mentorship & Team Leadership
+      - name: Mentorship and Team Leadership
         percent: 90
         icon: user-group
-      - name: Technical & Career Development Speaking & AI Education
+      - name: Technical and Career Development Speaking and AI Education
+        percent: 85
+        icon: microphone
+      - name: Speaker in AI Education
         percent: 85
         icon: microphone
   - name: Hobbies
