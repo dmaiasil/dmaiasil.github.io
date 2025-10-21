@@ -58,6 +58,28 @@ sections:
     design:
       view: card
 
+#  - block: markdown
+#  content:
+#    title: "💬 What People Say"
+#    subtitle: ""
+#    text: |-
+#      > “Debs’ wisdom and authenticity at the SHPE Convention were truly inspiring.  
+#      > Her insights on career growth and navigating challenges resonated deeply. This is a talk that stays with you.”  
+#      >
+#      > — *"Darwing Vargas, SHPE 2024 Attendee"*
+#  design:
+#    columns: '1'
+
+- block: testimonial
+  content:
+    title: "What People Say"
+    items:
+      - text: "Debs’ wisdom and authenticity at the SHPE Convention were truly inspiring. Her insights on career growth and navigating challenges resonated deeply. This is a talk that stays with you."
+        author: "Darwing Vargas, SHPE 2024 Attendee"
+        organization:  "Career Assistant,  Rensselaer Polytechnic Institute"
+
+
+
   - block: collection
     id: publications
     content:
