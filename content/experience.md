@@ -29,9 +29,9 @@ sections:
       title: Awards
       username: admin
   - block: resume-volunteering
-  content:
-    title: Volunteering
-    username: admin
+    content:
+      title: Volunteering
+      username: admin
   - block: resume-languages
     content:
       title: Languages
