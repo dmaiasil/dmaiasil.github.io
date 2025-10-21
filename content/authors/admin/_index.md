@@ -23,7 +23,7 @@ superuser: true
 highlight_name: true
 
 # Professional headline
-role: Lead AI & Machine Learning Data Scientist
+role: Lead AI and Machine Learning Data Scientist
 
 # Organization / Affiliation
 organizations:
