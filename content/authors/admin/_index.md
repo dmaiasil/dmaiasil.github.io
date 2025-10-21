@@ -116,42 +116,32 @@ skills:
   - name: Technical Skills
     items:
       - name: Python, SQL, R
-        percent: 95
         icon: code-bracket
       - name: Machine Learning, NLP
-        percent: 100
         icon: chart-bar
       - name: LLMs, RAG Systems
-        percent: 90
-        icon: brain
+        icon: cpu-chip
       - name: AWS, Spark, Hadoop
-        percent: 85
         icon: cloud
   - name: Leadership and Communication
     color: '#3b82f6'
     color_border: '#60a5fa'
     items:
       - name: Mentorship and Team Leadership
-        percent: 90
         icon: user-group
       - name: Technical and Career Development Speaking and AI Education
-        percent: 85
         icon: microphone
       - name: Speaker in AI Education
-        percent: 85
         icon: microphone
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
       - name: Teaching Data Science
-        percent: 80
         icon: academic-cap
       - name: Soccer
-        percent: 90
         icon: trophy
-      - name: Reading & Writing
-        percent: 75
+      - name: Reading and Writing
         icon: book-open
 
 # Languages
