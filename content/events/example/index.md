@@ -43,5 +43,11 @@ image:
 
 #slides: ''
 
+testimonial:
+  quote: "Debs’ wisdom and authenticity at the SHPE Convention were truly inspiring. Her insights on career growth and navigating challenges resonated deeply. This is a talk that stays with you."
+  author: "Darwing Vargas, SHPE 2024 Attendee"
+  role: "Career Assistant,  Rensselaer Polytechnic Institute"
+
+
 projects: []
 ---
