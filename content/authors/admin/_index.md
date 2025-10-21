@@ -46,7 +46,7 @@ profiles:
 # Research & Professional Interests
 interests:
   - Large Language Models (LLMs)
-  - AI Applications in Regulated and High-Risk Environments
+  - AI Applications in High-Risk Environments
   - AI Ethics and Evaluation
   - Fraud Detection
   - Energy and Climate Data Modeling
@@ -151,7 +151,7 @@ languages:
   - name: Portuguese
     percent: 100
   - name: Spanish
-    percent: 80
+    percent: 70
 
 # Awards
 awards:
