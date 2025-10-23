@@ -26,12 +26,12 @@ hugoblox:
 links:
   - type: source
     url: "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2021EF002476"
-  - type: pdf
-    url: ""
-  - type: code
-    url: ""
-  - type: dataset
-    url: ""
+#  - type: pdf
+#    url: ""
+#  - type: code
+#    url: ""
+#  - type: dataset
+#    url: ""
 
 image:
   caption: "Earth’s Future (2022)"
