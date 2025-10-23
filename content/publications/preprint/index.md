@@ -26,10 +26,10 @@ links:
     url: "https://www.nature.com/articles/s41467-020-15393-8"
   - type: pdf
     url: ""
-  - type: code
-    url: ""
-  - type: dataset
-    url: ""
+#  - type: code
+#    url: ""
+#  - type: dataset
+#    url: ""
 
 # If you add a cover image, name it featured.jpg/png/svg in this folder.
 image:
