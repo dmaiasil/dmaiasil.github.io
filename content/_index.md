@@ -50,7 +50,8 @@ sections:
         folders:
           - events
     design:
-      view: card
+      view: article-grid
+      columns: 2
 
   - block: markdown
     content:
@@ -64,14 +65,14 @@ sections:
               Her insights on career growth and navigating challenges resonated deeply.  
               This is a talk that stays with you.”
             </blockquote>
-            <figcaption>— <strong>Darwing Vargas</strong>, SHPE 2024 Attendee; Career Assistant, RPI</figcaption>
+            <figcaption>— <strong>Darwing Vargas</strong>, Career Assistant, RPI</figcaption>
           </figure>
 
           <figure>
             <blockquote>
-              “Debs brings technical depth with a human touch — her talks make complex AI ideas accessible and empowering.”
+              ““Debs’ talk at the RTC Summit was deeply inspiring. Her authenticity and insights on *finding your niche in tech* resonated with me, showing how aligning strengths with purpose leads to a more meaningful career in tech.”  
             </blockquote>
-            <figcaption>— <strong>Placeholder Speaker Review</strong>, AI Ethics Forum</figcaption>
+            <figcaption>— <strong>Vaishnavi Rajendra Dhotargavi</strong>, Machine Learning Engineer, BulkMagic</figcaption>
           </figure>
         </div>
 
