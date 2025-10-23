@@ -7,8 +7,8 @@ event_url: "https://shpe.org/engage/events/national-convention/"
 location: "Philadelphia, PA"
 address:
   street: ""
-  city: "Philadelphia"
-  region: "PA"
+  city: ""
+  region: ""
   postcode: ""
   country: "United States"
 
