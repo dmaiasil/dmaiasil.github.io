@@ -70,7 +70,7 @@ sections:
 
           <figure>
             <blockquote>
-              ““Debs’ talk at the RTC Summit was deeply inspiring. Her authenticity and insights on finding your niche in tech resonated with me, showing how aligning strengths with purpose leads to a more meaningful career in tech.”  
+              “Debs’ talk at the RTC Summit was deeply inspiring. Her authenticity and insights on finding your niche in tech resonated with me, showing how aligning strengths with purpose leads to a more meaningful career in tech.”  
             </blockquote>
             <figcaption>— <strong>Vaishnavi Rajendra Dhotargavi</strong>, Machine Learning Engineer, BulkMagic</figcaption>
           </figure>
@@ -99,6 +99,17 @@ sections:
         </style>
     design:
       columns: '1'
+
+  - block: cta-card
+    content:
+      title: "📩 Book a Talk"
+      text: "Bring this session to your organization or event."
+      button:
+        text: "Email Debs for Speaking Engagements"
+        url: "mailto:missdmaia@gmail.com"
+    design:
+      card:
+        css_class: 'bg-primary-100'
 
   - block: collection
     id: publications
