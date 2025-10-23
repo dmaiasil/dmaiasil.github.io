@@ -13,7 +13,7 @@ address:
   country: "United States"
 
 summary: >-
-  An insightful panel on how to define your own career path in tech by aligning your strengths and interests with meaningful roles — not just trends.
+  An insightful panel on how to define your own career path in tech by aligning your strengths and interests with meaningful roles, and not just trends.
 
 abstract: >-
   Let’s get one thing straight: there’s no “National Developer Registry.”
