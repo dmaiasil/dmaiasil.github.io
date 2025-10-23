@@ -40,9 +40,3 @@ image:
 projects: []
 ---
 
-# ## What People Say
-
-#> “Debs’ authenticity and perspective are always uplifting.  
-#> Her ability to combine technical expertise with empathy and purpose makes every session empowering.”  
-#>
-#> — *Placeholder Attendee, SHPE 2025*
