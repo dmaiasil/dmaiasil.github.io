@@ -18,7 +18,7 @@ summary: >-
 
 abstract: >-
   More than 40% of women leave their careers in tech within the first 10 years.  
-  This talk explores the systemic challenges faced by women and minorities in the workplace and offers strategies to overcome them though resilience to and supportive networks.  
+  This talk explores the systemic challenges faced by women and minorities in the workplace and offers strategies to overcome them through resilience and supportive networks.  
   It’s a session about redefining success, setting boundaries, and prioritizing well-being 💛
 
 date: "2025-10-30T11:30:00Z"
@@ -40,3 +40,7 @@ image:
 projects: []
 ---
 
+## 📩 Book a Talk
+
+Interested in bringing this session to your organization or event?  
+Reach out directly at [**missdmaia@gmail.com**](mailto:missdmaia@gmail.com).
