@@ -14,7 +14,7 @@ address:
 
 summary: >-
   Excited to return this year to present a full session at SHPE!  
-  It's been a challenging year for developers — let’s talk about practical, actionable steps to sustain and grow a career that thrives.
+  It's been a challenging year for developers, so let’s talk about practical, actionable steps to sustain and grow a career that thrives.
 
 abstract: >-
   More than 40% of women leave their careers in tech within the first 10 years.  
