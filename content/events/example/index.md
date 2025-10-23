@@ -50,7 +50,7 @@ projects: []
 
 ## What People Say
 
-> “Debs’ wisdom and authenticity at the SHPE Convention were truly inspiring.  
+> Debs’ wisdom and authenticity at the SHPE Convention were truly inspiring.  
 > Her insights on career growth and navigating challenges resonated deeply — this is a talk that stays with you.”  
 >
 > — *Darwing Vargas, SHPE 2024 Attendee; Career Assistant, RPI*
