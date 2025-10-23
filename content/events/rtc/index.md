@@ -44,6 +44,6 @@ projects: []
 
 ## What People Say
 
-> “Debs’ talk at the RTC Summit was deeply inspiring. Her authenticity and insights on *finding your niche in tech* resonated with me, showing how aligning strengths with purpose leads to a more meaningful career in tech.”  
+> Debs’ talk at the RTC Summit was deeply inspiring. Her authenticity and insights on *finding your niche in tech* resonated with me, showing how aligning strengths with purpose leads to a more meaningful career in tech."  
 >
 > — *Vaishnavi Rajendra Dhotargavi, RTC Career Summit 2025 Attendee; Machine Learning Engineer, BulkMagic*
