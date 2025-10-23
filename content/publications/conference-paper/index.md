@@ -26,12 +26,12 @@ hugoblox:
 links:
   - type: source
     url: "https://www.sciencedirect.com/science/article/abs/pii/S0921344920307072?via%3Dihub"
-  - type: pdf
-    url: ""
-  - type: code
-    url: ""
-  - type: dataset
-    url: ""
+#  - type: pdf
+#    url: ""
+#  - type: code
+#    url: ""
+#  - type: dataset
+#    url: ""
 
 image:
   caption: "Environmental Science & Policy (2020)"
