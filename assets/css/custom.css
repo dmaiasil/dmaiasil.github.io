@@ -1,33 +1,34 @@
-/* Make CTA title + subtitle dark in dark mode */
-.book-cta h1,
-.book-cta h2,
-.book-cta h3,
-.book-cta p,
-.book-cta .text-gray-900,
-.dark .book-cta h1,
-.dark .book-cta h2,
-.dark .book-cta h3,
-.dark .book-cta p,
-.dark .book-cta .text-gray-900,
-.dark .book-cta .dark\:text-white\/80 {
-  color: #111 !important; /* Dark readable text */
+/* ===== CTA card dark-mode fixes =====
+   Goal: subtitle & "Book a Talk" text should be dark in dark mode,
+   but the inner email button label must remain white.
+*/
+
+/* 1) Make CTA title & subtitle dark in dark mode
+   Target elements that currently have `text-gray-900 dark:text-white/80`.
+   We must override Tailwind’s `.dark:text-white/80` (escaped below). */
+[data-theme="dark"] .cta-card .dark\:text-white\/80,
+[data-theme="dark"] .bg-primary-100 .dark\:text-white\/80,
+[data-theme="dark"] .cta-card .text-gray-900,
+[data-theme="dark"] .bg-primary-100 .text-gray-900,
+[data-theme="dark"] .cta-card h1,
+[data-theme="dark"] .cta-card h2,
+[data-theme="dark"] .cta-card h3 {
+  color: #111 !important; /* dark text */
 }
 
-/* Ensure background stays correct */
-.book-cta.bg-primary-100,
-.dark .book-cta.bg-primary-100 {
-  background-color: var(--color-primary-100) !important;
+/* 2) Ensure generic paragraphs in the CTA are dark too */
+[data-theme="dark"] .cta-card p,
+[data-theme="dark"] .bg-primary-100 p {
+  color: #111 !important;
 }
 
-/* DO NOT affect the button — keep its theme behavior */
-.book-cta a.button,
-.book-cta button,
-.book-cta .button,
-.book-cta .button-primary {
-  color: inherit;
+/* 3) Keep the INNER EMAIL BUTTON LABEL white
+   Your button label is: <span class="relative z-10">Email Debs...</span>
+   We scope to anchors inside the CTA to avoid touching other buttons site-wide. */
+.cta-card a span.relative.z-10,
+.bg-primary-100 a span.relative.z-10 {
+  color: #fff !important; /* white label in both modes */
 }
 
-/* Explicitly restore button text color behavior */
-.dark .book-cta .button-primary {
-  color: #fff !important;  /* stays white in dark mode */
-}
+/* 4) Do NOT change the smaller button background/hover styles.
+   (No rules here affecting .btn classes or background utilities.) */
