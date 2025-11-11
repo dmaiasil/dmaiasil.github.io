@@ -1,0 +1,19 @@
+/* Fix CTA text in dark mode without affecting the button */
+[data-theme="dark"] .bg-primary-100,
+.dark .bg-primary-100 {
+  color: #111 !important;
+}
+
+/* Ensure the CTA title and subtitle text stay dark */
+[data-theme="dark"] .bg-primary-100 h1,
+[data-theme="dark"] .bg-primary-100 h2,
+[data-theme="dark"] .bg-primary-100 h3,
+[data-theme="dark"] .bg-primary-100 p,
+.dark .bg-primary-100 h1,
+.dark .bg-primary-100 h2,
+.dark .bg-primary-100 h3,
+.dark .bg-primary-100 p {
+  color: #111 !important;
+}
+
+/* DO NOT TOUCH BUTTONS — they remain themed */
