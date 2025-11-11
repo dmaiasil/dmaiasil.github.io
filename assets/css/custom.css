@@ -1,19 +1,25 @@
-/* Fix CTA text in dark mode without affecting the button */
+/* Fix CTA card text in dark mode (but leave button styling alone) */
+[data-theme="dark"] .cta-card,
+.dark .cta-card,
 [data-theme="dark"] .bg-primary-100,
 .dark .bg-primary-100 {
   color: #111 !important;
 }
 
-/* Ensure the CTA title and subtitle text stay dark */
+/* Ensure heading and subtitle inside CTA are readable */
+[data-theme="dark"] .cta-card h1,
+[data-theme="dark"] .cta-card h2,
+[data-theme="dark"] .cta-card h3,
+[data-theme="dark"] .cta-card p,
 [data-theme="dark"] .bg-primary-100 h1,
 [data-theme="dark"] .bg-primary-100 h2,
 [data-theme="dark"] .bg-primary-100 h3,
 [data-theme="dark"] .bg-primary-100 p,
-.dark .bg-primary-100 h1,
-.dark .bg-primary-100 h2,
-.dark .bg-primary-100 h3,
-.dark .bg-primary-100 p {
+.dark .cta-card h1,
+.dark .cta-card h2,
+.dark .cta-card h3,
+.dark .cta-card p {
   color: #111 !important;
 }
 
-/* DO NOT TOUCH BUTTONS — they remain themed */
+/* DO NOT AFFECT THE BUTTON — keep theme toggling working */
