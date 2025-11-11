@@ -1,21 +1,33 @@
-/* Fix CTA subtitle text color in dark mode without affecting the button */
-.book-cta .text-gray-900 {
+/* Make CTA title + subtitle dark in dark mode */
+.book-cta h1,
+.book-cta h2,
+.book-cta h3,
+.book-cta p,
+.book-cta .text-gray-900,
+.dark .book-cta h1,
+.dark .book-cta h2,
+.dark .book-cta h3,
+.dark .book-cta p,
+.dark .book-cta .text-gray-900,
+.dark .book-cta .dark\:text-white\/80 {
+  color: #111 !important; /* Dark readable text */
+}
+
+/* Ensure background stays correct */
+.book-cta.bg-primary-100,
+.dark .book-cta.bg-primary-100 {
+  background-color: var(--color-primary-100) !important;
+}
+
+/* DO NOT affect the button — keep its theme behavior */
+.book-cta a.button,
+.book-cta button,
+.book-cta .button,
+.book-cta .button-primary {
   color: inherit;
 }
 
-/* Override Tailwind's dark:text-white/80 */
-.dark .book-cta .dark\:text-white\/80 {
-  color: #111 !important;
-}
-
-/* Ensure general text inside the CTA card is readable in dark mode */
-.dark .book-cta * {
-  color: #111 !important;
-}
-
-/* Keep the email button styling untouched */
-.book-cta a.btn,
-.book-cta a.button,
-.book-cta button {
-  color: inherit !important;
+/* Explicitly restore button text color behavior */
+.dark .book-cta .button-primary {
+  color: #fff !important;  /* stays white in dark mode */
 }
