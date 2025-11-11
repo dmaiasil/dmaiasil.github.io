@@ -1,32 +1,21 @@
-/*----------------------------------------------------------
-  BOOK A TALK CTA — Only affect this card (not all CTA cards)
------------------------------------------------------------*/
-
-/* Light mode (explicitly keep text dark) */
-.book-cta h1,
-.book-cta h2,
-.book-cta h3,
-.book-cta p {
-  color: #111 !important; /* slate-900 */
+/* Fix CTA subtitle text color in dark mode without affecting the button */
+.book-cta .text-gray-900 {
+  color: inherit;
 }
 
-/* Dark mode override — ensure the title + subtitle stay dark */
-.dark .book-cta h1,
-.dark .book-cta h2,
-.dark .book-cta h3,
-.dark .book-cta p,
-[data-theme="dark"] .book-cta h1,
-[data-theme="dark"] .book-cta h2,
-[data-theme="dark"] .book-cta h3,
-[data-theme="dark"] .book-cta p {
-  color: #111 !important; /* same contrast in dark mode */
+/* Override Tailwind's dark:text-white/80 */
+.dark .book-cta .dark\:text-white\/80 {
+  color: #111 !important;
 }
 
-/* Keep card background the same soft violet */
-.book-cta,
-.dark .book-cta,
-[data-theme="dark"] .book-cta {
-  background-color: var(--color-primary-100) !important;
+/* Ensure general text inside the CTA card is readable in dark mode */
+.dark .book-cta * {
+  color: #111 !important;
 }
 
-/* DO NOT TOUCH BUTTONS — keep theme contrast working */
+/* Keep the email button styling untouched */
+.book-cta a.btn,
+.book-cta a.button,
+.book-cta button {
+  color: inherit !important;
+}
