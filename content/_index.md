@@ -109,7 +109,7 @@ sections:
         url: "mailto:missdmaia@gmail.com"
     design:
       card:
-        css_class: 'bg-primary-100 book-cta'
+        css_class: 'bg-primary-100 cta-fix'
 
   - block: collection
     id: publications
