@@ -1,25 +1,32 @@
-/* Fix CTA card text in dark mode (but leave button styling alone) */
-[data-theme="dark"] .cta-card,
-.dark .cta-card,
-[data-theme="dark"] .bg-primary-100,
-.dark .bg-primary-100 {
-  color: #111 !important;
+/*----------------------------------------------------------
+  BOOK A TALK CTA — Only affect this card (not all CTA cards)
+-----------------------------------------------------------*/
+
+/* Light mode (explicitly keep text dark) */
+.book-cta h1,
+.book-cta h2,
+.book-cta h3,
+.book-cta p {
+  color: #111 !important; /* slate-900 */
 }
 
-/* Ensure heading and subtitle inside CTA are readable */
-[data-theme="dark"] .cta-card h1,
-[data-theme="dark"] .cta-card h2,
-[data-theme="dark"] .cta-card h3,
-[data-theme="dark"] .cta-card p,
-[data-theme="dark"] .bg-primary-100 h1,
-[data-theme="dark"] .bg-primary-100 h2,
-[data-theme="dark"] .bg-primary-100 h3,
-[data-theme="dark"] .bg-primary-100 p,
-.dark .cta-card h1,
-.dark .cta-card h2,
-.dark .cta-card h3,
-.dark .cta-card p {
-  color: #111 !important;
+/* Dark mode override — ensure the title + subtitle stay dark */
+.dark .book-cta h1,
+.dark .book-cta h2,
+.dark .book-cta h3,
+.dark .book-cta p,
+[data-theme="dark"] .book-cta h1,
+[data-theme="dark"] .book-cta h2,
+[data-theme="dark"] .book-cta h3,
+[data-theme="dark"] .book-cta p {
+  color: #111 !important; /* same contrast in dark mode */
 }
 
-/* DO NOT AFFECT THE BUTTON — keep theme toggling working */
+/* Keep card background the same soft violet */
+.book-cta,
+.dark .book-cta,
+[data-theme="dark"] .book-cta {
+  background-color: var(--color-primary-100) !important;
+}
+
+/* DO NOT TOUCH BUTTONS — keep theme contrast working */
