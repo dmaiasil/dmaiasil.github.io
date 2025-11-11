@@ -1,34 +1,49 @@
-/* ===== CTA card dark-mode fixes =====
-   Goal: subtitle & "Book a Talk" text should be dark in dark mode,
-   but the inner email button label must remain white.
-*/
+/* =========================================
+   CTA dark-mode fixes
+   Scope all overrides to .cta-fix so we don't affect the rest of the site
+   ========================================= */
 
-/* 1) Make CTA title & subtitle dark in dark mode
-   Target elements that currently have `text-gray-900 dark:text-white/80`.
-   We must override Tailwind’s `.dark:text-white/80` (escaped below). */
-[data-theme="dark"] .cta-card .dark\:text-white\/80,
-[data-theme="dark"] .bg-primary-100 .dark\:text-white\/80,
-[data-theme="dark"] .cta-card .text-gray-900,
-[data-theme="dark"] .bg-primary-100 .text-gray-900,
-[data-theme="dark"] .cta-card h1,
-[data-theme="dark"] .cta-card h2,
-[data-theme="dark"] .cta-card h3 {
-  color: #111 !important; /* dark text */
-}
-
-/* 2) Ensure generic paragraphs in the CTA are dark too */
-[data-theme="dark"] .cta-card p,
-[data-theme="dark"] .bg-primary-100 p {
+/* In dark mode, make CTA headings and body copy dark (override Tailwind dark:text-*) */
+[data-theme="dark"] .cta-fix,
+.dark .cta-fix {
   color: #111 !important;
 }
 
-/* 3) Keep the INNER EMAIL BUTTON LABEL white
-   Your button label is: <span class="relative z-10">Email Debs...</span>
-   We scope to anchors inside the CTA to avoid touching other buttons site-wide. */
-.cta-card a span.relative.z-10,
-.bg-primary-100 a span.relative.z-10 {
-  color: #fff !important; /* white label in both modes */
+/* Target typical text elements inside the CTA – but exclude anchors/buttons so we don't flip button text */
+[data-theme="dark"] .cta-fix h1,
+[data-theme="dark"] .cta-fix h2,
+[data-theme="dark"] .cta-fix h3,
+[data-theme="dark"] .cta-fix p,
+[data-theme="dark"] .cta-fix div:not(a):not(button):not(.btn):not(.inline-flex):not(.group),
+.dark .cta-fix h1,
+.dark .cta-fix h2,
+.dark .cta-fix h3,
+.dark .cta-fix p,
+.dark .cta-fix div:not(a):not(button):not(.btn):not(.inline-flex):not(.group) {
+  color: #111 !important;
 }
 
-/* 4) Do NOT change the smaller button background/hover styles.
-   (No rules here affecting .btn classes or background utilities.) */
+/* Keep the CTA button text WHITE in dark mode only (do not touch light mode) */
+[data-theme="dark"] .cta-fix a,
+[data-theme="dark"] .cta-fix a .relative.z-10,
+[data-theme="dark"] .cta-fix button,
+[data-theme="dark"] .cta-fix button .relative.z-10,
+[data-theme="dark"] .cta-fix .btn,
+[data-theme="dark"] .cta-fix .btn .relative.z-10,
+.dark .cta-fix a,
+.dark .cta-fix a .relative.z-10,
+.dark .cta-fix button,
+.dark .cta-fix button .relative.z-10,
+.dark .cta-fix .btn,
+.dark .cta-fix .btn .relative.z-10 {
+  color: #fff !important;
+}
+
+/* Optional: ensure the translucent hover overlay still looks right in dark mode */
+[data-theme="dark"] .cta-fix .group .absolute.inset-0 {
+  /* leave background classes from theme; no color override here */
+}
+
+/* NOTE:
+   We do NOT set any button colors for light mode, so your existing light theme styles remain intact.
+*/
