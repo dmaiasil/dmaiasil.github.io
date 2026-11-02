@@ -1,22 +1,43 @@
 # Languages
 #   Create a section for each of your site's languages.
 #   Documentation: https://docs.hugoblox.com/reference/language/
+#
+#   Translations live next to the English files using a `.pt` suffix,
+#   e.g. `content/_index.md` (English) and `content/_index.pt.md` (Portuguese).
+#   English stays at the site root; Portuguese is served under `/pt/`.
+#   The flag switcher in the navbar is in `layouts/_partials/components/language-chooser.html`.
 
 # Default language
 en:
   languageCode: en-us
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
+  languageName: English
+  weight: 1
 
-# Uncomment the lines below to configure your website in a second language.
-#zh:
-#  languageCode: zh-Hans
-#  contentDir: content/zh
-#  title: Chinese website title...
-#  params:
-#    description: Site description in Chinese...
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
+# Brazilian Portuguese
+pt:
+  languageCode: pt-BR
+  languageName: Português
+  weight: 2
+  params:
+    description: 'Debs Maia Silva: cientista de dados, líder em IA e palestrante.'
+    header:
+      navbar:
+        logo:
+          text: 'O que os dados podem fazer por você?'
+    footer:
+      copyright:
+        notice: '© {year} Debs Maia Silva. Este trabalho está licenciado sob a licença {license}'
+    locale:
+      date_format: '2 Jan 2006'
+      time_format: '15:04'
+  menus:
+    main:
+      - name: Bio
+        url: /
+        weight: 10
+      - name: Palestras
+        url: /#talks
+        weight: 12
+      - name: Experiência
+        url: experience/
+        weight: 15

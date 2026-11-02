@@ -39,6 +39,8 @@ header:
 
 # Site footer
 footer:
+  # Language switching is done with the flags in the navbar
+  show_translations: false
   copyright:
     notice: '© {year} Me. This work is licensed under {license}'
     license:

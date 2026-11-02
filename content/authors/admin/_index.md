@@ -10,7 +10,7 @@ first_name: Debs
 last_name: Maia Silva
 
 # Pronouns
-pronouns: she/her
+pronouns: ''
 
 # Status emoji (reflects AI focus)
 status:
@@ -32,16 +32,9 @@ organizations:
 
 # Contact & Social
 profiles:
-  - icon: at-symbol
-    url: mailto:missdmaia@gmail.com
-    label: Email
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/dr-debs/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=8DgiMCEAAAAJ&hl=en
-  - icon: brands/instagram
-    url: https://www.instagram.com/python_direto_ao_ponto/
-    label: "Python direto ao ponto (Education Project)"
+    label: LinkedIn
 
 # Research & Professional Interests
 interests:
@@ -119,7 +112,7 @@ skills:
         icon: code-bracket
       - name: Machine Learning, NLP
         icon: chart-bar
-      - name: LLMs, RAG Systems
+      - name: LLMs and Agentic Systems
         icon: cpu-chip
       - name: AWS, Spark, Hadoop
         icon: cloud
@@ -129,9 +122,7 @@ skills:
     items:
       - name: Mentorship and Team Leadership
         icon: user-group
-      - name: Technical and Career Development Speaking and AI Education
-        icon: microphone
-      - name: Speaker in AI Education
+      - name: Talks and Workshops on AI, Data Science, ML, and Career Development
         icon: microphone
   - name: Hobbies
     color: '#eeac02'
@@ -155,6 +146,11 @@ languages:
 
 # Awards
 awards:
+  - title: Two Patents in AI Applications for Risk Management
+    awarder: Capital One
+    icon: hero/light-bulb
+    summary: |
+      Two patents for AI applications in risk management, developed at Capital One.
   - title: Outstanding Research Award
     awarder: Purdue College of Engineering
     date: '2020-12-01'
@@ -193,24 +189,32 @@ volunteering:
     organization: Women in Tech / Latinas in Tech
     date_start: 2024-03-01
     date_end: ''
-  - role: Founder
-    organization: "Vem ser Dev — Python direto ao ponto"
+  - role: Mentor
+    organization: "HIT (Hispanics in Tech) Mentorship cohorts"
+    date_start: 2024-01-01
+    date_end: 2026-12-31
+  - role: Mentor
+    organization: OutFront Mentorship Cohort
+    date_start: 2024-01-01
+    date_end: 2026-12-31
+  - role: Educator
+    organization: Data Science & Machine Learning for Portuguese Speakers
     date_start: 2020-01-01
     date_end: ''
     summary: |
-      Created an educational platform to teach Python and data science to Portuguese-speaking learners.
+      Creates educational content to bring high-quality data science and machine learning to Portuguese speakers.
   - role: Internship Program Lead
     organization: Capital One Data Science Program
     date_start: 2022-07-01
     date_end: ''
 ---
 
-Dr. Debs Maia Silva is a Lead AI & Machine Learning Data Scientist at Capital One, where she pioneers enterprise-grade applications of Large Language Models and AI systems in regulated environments.
+Dr. Debs is a Lead AI & Machine Learning Data Scientist who pioneers enterprise-grade applications of Large Language Models and AI systems in regulated environments.
 She leads cross-functional teams developing retrieval-augmented generation pipelines and compliance-aware AI frameworks that enhance decision-making and operational efficiency.
 
 **Debs** holds a Ph.D. in Engineering from **Purdue University**, where her research on *energy forecasting* and *machine learning* was featured in **Nature Communications** and *Earth’s Future*.  
 
-As a data-science leader, educator, and advocate for women and Latinas in tech, she is passionate about **making technology accessible and meaningful**. Debs founded **Vem ser Dev**: a data-science and Python education initiative empowering Portuguese-speaking learners.  
+As a data-science leader, educator, and mentor, she is passionate about **making technology accessible and meaningful**. She is committed to bringing high-quality data science and machine learning education to Portuguese speakers, and mentors professionals through communities such as Hispanics in Tech and Women in Tech.  
 
 Her work explores the intersection of **AI innovation, ethics, and real-world impact**, developing intelligent systems that drive responsible transformation.  
 

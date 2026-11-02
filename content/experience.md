@@ -34,11 +34,17 @@ sections:
       text: |-
         - **Workshop Presenter and Moderator**, *Women in Tech / Latinas in Tech*  
           *2023–Present*  
-          Facilitates sessions that promote inclusion and professional growth in tech.
+          Leads workshops on career growth and professional development in tech.
 
-        - **Founder**, *Vem ser Dev — Python direto ao ponto*  
+        - **Mentor**, *HIT (Hispanics in Tech) Mentorship cohorts*  
+          *2024–2026*
+
+        - **Mentor**, *OutFront Mentorship Cohort*  
+          *2024–2026*
+
+        - **Educator**, *Data Science & Machine Learning for Portuguese Speakers*  
           *2020–Present*  
-          Created an education initiative to teach Python and data science to Portuguese-speaking learners.
+          Creates educational content to bring high-quality data science and machine learning to Portuguese speakers.
 
         - **Internship Program Lead**, *Capital One Data Science Program*, **LAUNCH Program**  
           *2022–Present*  
