@@ -1,0 +1,8 @@
+# Social sharing links shown at the bottom of talk and other pages.
+# Overrides the theme's list (X, Facebook, Email, LinkedIn, WhatsApp): LinkedIn only.
+links:
+  - id: linkedin
+    url: 'https://www.linkedin.com/shareArticle?url={url}&title={title}'
+    title: LinkedIn
+    icon: brands/linkedin
+    enable: true

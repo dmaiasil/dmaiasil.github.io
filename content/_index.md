@@ -32,7 +32,7 @@ sections:
       text: |-
         My mission is to **lead and build AI systems that are ethical, explainable, and impactful**, transforming how organizations use data to make better, more responsible decisions.  
 
-        As an **educator and international speaker**, I’m passionate about **democratizing technology** through inclusion and knowledge-sharing. I founded **Vem ser Dev** to empower Portuguese-speaking learners in Python and data science.  
+        As an **educator and international speaker**, I’m passionate about **democratizing technology** through inclusion and knowledge-sharing. I'm also committed to bringing high-quality data science and machine learning education to Portuguese speakers.  
 
         Through my talks and collaborations, I aim to **bridge the gap between complex AI systems and human understanding**, inspiring teams and audiences to use data for good.  
 

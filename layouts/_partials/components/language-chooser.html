@@ -1,0 +1,42 @@
+{{/*
+  Flag language switcher (overrides the theme's globe dropdown).
+  Shows one flag per site language; the current language is highlighted,
+  the others link to the same page in that language (or that language's
+  homepage if the page has no translation).
+  Flags are inline SVG, not emoji, so they render the same on every OS.
+*/}}
+{{ $page := .page }}
+
+<nav class="flex items-center gap-2" aria-label="{{ T "languages" | default "Languages" }}">
+  {{ range site.Languages }}
+    {{ $lang := .Lang }}
+    {{ $name := .LanguageName | default $lang }}
+    {{ if eq $lang $page.Lang }}
+      <span
+        lang="{{ .LanguageCode }}"
+        title="{{ $name }}"
+        aria-current="true"
+        class="inline-flex rounded-sm ring-2 ring-primary-500 ring-offset-1 ring-offset-white dark:ring-offset-zinc-900">
+        {{ partial "components/flag.html" $lang }}
+        <span class="sr-only">{{ $name }}</span>
+      </span>
+    {{ else }}
+      {{ $url := "" }}
+      {{ range $page.Translations }}
+        {{ if eq .Lang $lang }}{{ $url = .RelPermalink }}{{ end }}
+      {{ end }}
+      {{ if not $url }}
+        {{ with site.Sites }}{{ range . }}{{ if eq .Language.Lang $lang }}{{ $url = .Home.RelPermalink }}{{ end }}{{ end }}{{ end }}
+      {{ end }}
+      <a
+        href="{{ $url }}"
+        hreflang="{{ .LanguageCode }}"
+        lang="{{ .LanguageCode }}"
+        title="{{ $name }}"
+        class="inline-flex rounded-sm opacity-60 transition hover:opacity-100 focus-visible:opacity-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500">
+        {{ partial "components/flag.html" $lang }}
+        <span class="sr-only">{{ $name }}</span>
+      </a>
+    {{ end }}
+  {{ end }}
+</nav>

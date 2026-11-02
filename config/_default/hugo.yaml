@@ -16,6 +16,8 @@ defaultContentLanguage: en
 hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
 removePathAccents: true
+# Keep list/tag titles as written (title-casing breaks Portuguese, e.g. "Ética Em IA")
+capitalizeListTitles: false
 
 ############################
 ## ADVANCED

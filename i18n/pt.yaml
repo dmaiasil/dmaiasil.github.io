@@ -1,0 +1,142 @@
+# Brazilian Portuguese overrides for theme strings.
+# The theme ships its own `pt.yaml`, but several entries are missing or still in English.
+# Anything defined here takes precedence over the theme.
+
+# Navigation
+- id: toggle_navigation
+  translation: Abrir menu
+- id: table_of_contents
+  translation: Sumário
+- id: home
+  translation: Início
+- id: close
+  translation: Fechar
+- id: languages
+  translation: Idiomas
+
+# General
+- id: minute_read
+  translation: min de leitura
+- id: read_more
+  translation: Leia mais
+- id: edit_page
+  translation: Editar esta página
+- id: backlinks
+  translation: Páginas que citam esta
+
+# Themes
+- id: theme_selector
+  translation: Aparência
+- id: theme_light
+  translation: Claro
+- id: theme_dark
+  translation: Escuro
+- id: theme_auto
+  translation: Automático
+
+# Buttons
+- id: btn_preprint
+  translation: Preprint
+- id: btn_source
+  translation: Fonte
+- id: btn_copied
+  translation: Copiado
+- id: btn_download
+  translation: Baixar
+- id: btn_site
+  translation: Site
+- id: btn_discussion
+  translation: Discussão
+- id: btn_event
+  translation: Evento
+- id: btn_calendar
+  translation: Calendário
+- id: btn_registration
+  translation: Inscrição
+- id: btn_model
+  translation: Modelo
+
+# Resume blocks
+- id: about_me
+  translation: Resumo profissional
+- id: experience
+  translation: Experiência
+
+# Countdown
+- id: days
+  translation: Dias
+- id: hours
+  translation: Horas
+- id: minutes
+  translation: Minutos
+- id: seconds
+  translation: Segundos
+
+# Contact
+- id: contact_email
+  translation: E-mail
+- id: contact_attachment
+  translation: Anexar arquivo
+
+# Content types
+- id: pub_article
+  translation: Preprint
+- id: more_posts
+  translation: Mais posts
+- id: authors
+  translation: Autores
+
+# Search
+- id: search_common_queries
+  translation: Buscas frequentes
+
+# Cookie consent
+- id: cookie_message
+  translation: Este site usa cookies para garantir a melhor experiência para você.
+
+# Footer
+- id: published_with
+  translation: Feito com {hugoblox}.
+- id: poweredby_button
+  translation: 'Crie o seu →'
+
+# Callouts
+- id: callout_note
+  translation: Nota
+- id: callout_abstract
+  translation: Resumo
+- id: callout_summary
+  translation: Resumo
+- id: callout_info
+  translation: Informação
+- id: callout_todo
+  translation: A fazer
+- id: callout_tip
+  translation: Dica
+- id: callout_success
+  translation: Sucesso
+- id: callout_question
+  translation: Pergunta
+- id: callout_warning
+  translation: Atenção
+- id: callout_failure
+  translation: Falha
+- id: callout_danger
+  translation: Perigo
+- id: callout_bug
+  translation: Bug
+- id: callout_example
+  translation: Exemplo
+- id: callout_quote
+  translation: Citação
+- id: callout_important
+  translation: Importante
+- id: callout_caution
+  translation: Cuidado
+
+# Resume: ongoing roles ("jul 2025 – atual")
+- id: present
+  translation: atual
+
+- id: btn_doi
+  translation: DOI
