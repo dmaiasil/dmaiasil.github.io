@@ -25,11 +25,6 @@ highlight_name: true
 # Professional headline
 role: Lead AI and Machine Learning Data Scientist
 
-# Organization / Affiliation
-organizations:
-  - name: Capital One
-    url: https://www.capitalonecareers.com/
-
 # Contact & Social
 profiles:
   - icon: brands/linkedin

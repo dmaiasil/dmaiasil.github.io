@@ -25,11 +25,6 @@ highlight_name: true
 # Professional headline
 role: Cientista de Dados Líder em IA e Machine Learning
 
-# Organization / Affiliation
-organizations:
-  - name: Capital One
-    url: https://www.capitalonecareers.com/
-
 # Contact & Social
 profiles:
   - icon: brands/linkedin
